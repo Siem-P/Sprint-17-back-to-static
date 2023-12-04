@@ -13,6 +13,8 @@
 </main>
 
 <style>
+	@import '$lib/styles/global.css';
+
 	.main {
 		height: 100%;
 		display: grid;

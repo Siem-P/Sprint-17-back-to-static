@@ -5,7 +5,3 @@
 <BaseLayout>
 	<slot />
 </BaseLayout>
-
-<style>
-	@import '$lib/styles/global.css';
-</style>
