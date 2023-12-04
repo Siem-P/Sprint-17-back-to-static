@@ -1,0 +1,1 @@
+<h1>All players page</h1>

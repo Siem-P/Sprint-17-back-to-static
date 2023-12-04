@@ -1,0 +1,1 @@
+<h1>All teams page</h1>

@@ -1,0 +1,1 @@
+<h1>Tournaments page</h1>
