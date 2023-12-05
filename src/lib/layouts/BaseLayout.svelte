@@ -2,20 +2,18 @@
 	import NavigationBar from '../organisms/NavigationBar.svelte';
 </script>
 
-<main>
-	<header>
-		<NavigationBar />
-	</header>
+<header>
+	<NavigationBar />
+</header>
 
-	<div>
-		<slot />
-	</div>
+<main>
+	<slot />
 </main>
 
 <style>
 	@import '$lib/styles/global.css';
 
-	main {
+	:global(body) {
 		height: 100%;
 		display: grid;
 		grid-template-columns: 1fr auto;
@@ -26,7 +24,7 @@
 		grid-area: nav;
 	}
 
-	div {
+	main {
 		grid-area: main;
 	}
 </style>
