@@ -1,15 +1,15 @@
 <script>
     export let data
     console.log(data)
-    const { teams } = data
+    const { players } = data
 </script>
 
-<!-- <section class="all-teams">
-    {#each teams as team}
+<section class="all-teams">
+    {#each players as player}
     <div>
         <img src="/images/raimon.png" alt="Raimon Logo">
-        <p>{team.name}</p>
+        <p>{player.name}</p>
     </div>
     {/each} 
-</section> -->
+</section>
 
