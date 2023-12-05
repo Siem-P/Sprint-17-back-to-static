@@ -2,12 +2,12 @@
 	import NavigationBar from '../organisms/NavigationBar.svelte';
 </script>
 
-<main class="main">
-	<header class="main__header">
+<main>
+	<header>
 		<NavigationBar />
 	</header>
 
-	<div class="main__content">
+	<div>
 		<slot />
 	</div>
 </main>
@@ -15,18 +15,18 @@
 <style>
 	@import '$lib/styles/global.css';
 
-	.main {
+	main {
 		height: 100%;
 		display: grid;
 		grid-template-columns: 1fr auto;
 		grid-template-areas: 'main nav';
 	}
 
-	.main__header {
+	header {
 		grid-area: nav;
 	}
 
-	.main__content {
+	div {
 		grid-area: main;
 	}
 </style>
