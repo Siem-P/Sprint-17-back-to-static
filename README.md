@@ -32,7 +32,7 @@ Do you want to start this project locally? Then follow the next steps. NB! NodeJ
 
 1. Open your terminal. Make sure you are in the path of the project.
 ```bash
-path_to_the_project/fdnd-sprint-14-l1 %
+path_to_the_project/sprint-17-back-to-static %
 ```
 
 3. Before you can start the application you must install all modules.
