@@ -1,10 +1,10 @@
 <script>
-	import Menu from '../organisms/Menu.svelte';
+	import NavigationBar from '../organisms/NavigationBar.svelte';
 </script>
 
 <main class="main">
 	<header class="main__header">
-		<Menu />
+		<NavigationBar />
 	</header>
 
 	<div class="main__content">

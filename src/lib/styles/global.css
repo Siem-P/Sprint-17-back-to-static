@@ -1,11 +1,33 @@
 :root {
+
+    /* SPACINGS */
     --spacing: .5rem;
+
+    /* COLORS */
+    --background-color: #F4F5FA;
+    --input-background-color: #FFFFFF;
+    --element-background-color: #FFFFFF;
+    --primary-font-color: #444D7B;
+    --button-background-color: #63C6A7;
+    --button-font-color: #FFFFFF;
+    --selected-background-color: #B1BBDD;
+    --hover-background-color: #E7FFF7;
+    --bio-player-font-color: #C3C3C3;
+    --sub-text-color: #D8D6D6;
+
+    /* FONTS */
+    --primary-font-family: 'Sora', sans-serif;
+    --secondary-font-family: 'Quicksand', sans-serif;
+    --tertiary-font-family: 'Inter', sans-serif;
+
+    /* BOX SHADOW */
+    --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-* {
-    box-sizing: border-box;
+*, *::before, *::after {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
