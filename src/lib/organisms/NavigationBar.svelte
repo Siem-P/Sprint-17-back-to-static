@@ -1,45 +1,40 @@
 <script>
-    import HomeButton from '$lib/molecules/HomeButton.svelte';
-    import AllPlayersButton from '$lib/molecules/AllPlayersButton.svelte';
-    import AllTeamsButton from '$lib/molecules/AllTeamsButton.svelte';
-    import AllTournamentsButton from '$lib/molecules/AllTournamentsButton.svelte';
-    import CurrentTournamentButton from '$lib/molecules/CurrentTournamentButton.svelte';
+	import NavItem from '$lib/molecules/NavItem.svelte';
+
+	let items = [
+		{ icon: 'home', label: 'Home', href: '/' },
+		{ icon: 'players', label: 'Players', href: '/players' },
+		{ icon: 'teams', label: 'Teams', href: '/teams' },
+		{ icon: 'tournaments', label: 'Tournaments', href: '/tournaments' }
+		// { icon: 'live', label: 'Live', href: '/live' }
+	];
 </script>
-  
-<main>
-    <section>
-        <nav aria-label="Main Navigation">
-            <HomeButton />
-            <AllPlayersButton />
-            <AllTeamsButton />
-            <AllTournamentsButton />
-            <CurrentTournamentButton />
-        </nav>
-    </section>
-</main>
+
+<nav aria-label="Main Navigation">
+	<ul>
+		{#each items as item}
+			<NavItem {item} />
+		{/each}
+	</ul>
+</nav>
 
 <style>
-    main {
-        background-color: var(--background-color);
-    }
+	nav {
+		background-color: var(--background-color);
+		padding: 0.5em;
+		height: 100%;
+	}
 
-    section {
-        margin-left: auto;
-        height: 100vh;
-        max-width: 8rem;
-        padding: 1rem;
-    }
-    
-    nav {
-        background-color: var(--input-background-color);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        width: 100%;
-        border-radius: 10px;
-        gap: 4rem;
-        box-shadow: var(--box-shadow);
-    }
+	ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 4rem;
+		box-shadow: var(--box-shadow);
+		border-radius: 10px;
+		background-color: var(--input-background-color);
+		height: 100%;
+		list-style: none;
+	}
 </style>
