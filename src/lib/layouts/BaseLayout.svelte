@@ -14,7 +14,6 @@
 	@import '$lib/styles/global.css';
 
 	:global(body) {
-		height: 100%;
 		display: grid;
 		grid-template-columns: 1fr auto;
 		grid-template-areas: 'main nav';
