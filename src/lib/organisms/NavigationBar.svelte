@@ -21,7 +21,7 @@
 <style>
 	nav {
 		padding: 0.5em;
-		height: 100%;
+		height: 100dvh;
 	}
 
 	ul {
