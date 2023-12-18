@@ -47,7 +47,7 @@
     </header>
     
     <section>
-        <div>
+        <div> 
             <form class="left">
                 <p class="subtitle-medium">Create a player</p>
                 <input type="text" id="fname" name="fname" placeholder="Player name...">
@@ -63,7 +63,7 @@
         <div>
             <p class="subtitle-medium">Add player to team</p>
             <form>
-                <input type="text" id="search-team" name="search-team" placeholder="Search Team...">>
+                <input type="text" id="search-team" name="search-team" placeholder="Search Team...">
             </form>
             <div class="team-results">
                 <!-- {#each teams as team}
