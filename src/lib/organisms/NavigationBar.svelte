@@ -20,7 +20,7 @@
 
 <style>
 	nav {
-		padding: 0.5em;
+		padding: 1em;
 		height: 100%;
 	}
 
@@ -29,7 +29,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		gap: 4rem;
+		gap: 2rem;
 		box-shadow: var(--box-shadow);
 		border-radius: 10px;
 		background-color: var(--input-background-color);

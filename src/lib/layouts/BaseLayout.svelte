@@ -6,9 +6,7 @@
 	<NavigationBar />
 </header>
 
-<main>
 	<slot />
-</main>
 
 <style>
 	@import '$lib/styles/global.css';
@@ -16,14 +14,11 @@
 	:global(body) {
 		display: grid;
 		grid-template-columns: 1fr auto;
-		grid-template-areas: 'main nav';
+		grid-template-areas: '. nav';
+		height: 100vh;
 	}
 
 	header {
 		grid-area: nav;
-	}
-
-	main {
-		grid-area: main;
 	}
 </style>

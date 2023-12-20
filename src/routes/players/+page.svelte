@@ -3,6 +3,14 @@
 </script>
 
 <TwoColumnLayout title={'Players'}>
+	<section slot="sub-title-left">
+		<h2>sut title Left</h2>
+	</section>
+
+	<section slot="sub-title-right">
+		<h2>sut title Right</h2>
+	</section>
+
 	<section slot="left">
 		<h2>Left</h2>
 	</section>

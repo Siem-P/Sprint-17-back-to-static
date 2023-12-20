@@ -26,6 +26,8 @@
 		padding: 1em;
 		color: var(--primary-font-color);
 		text-decoration: none;
+		width: 100%;
+		aspect-ratio: 1;
 	}
 
 	a:hover {
